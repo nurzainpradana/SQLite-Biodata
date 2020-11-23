@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SQLiteBiodata">
+        <activity android:name=".UpdateBiodata"></activity>
+        <activity android:name=".LihatBiodata" />
+        <activity android:name=".BuatBiodata" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
